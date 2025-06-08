@@ -1,0 +1,9 @@
+1. Start API Server (In the api-server folder, run `node index.js`)
+2. Start s3-reverse-proxy (In the s3-reverse-proxy folder, run `node index.js`)
+3. Build the build-sever project
+4. Push the image to AWS ECR
+5. Hit the /project API expose through POST API and pass github repo link through request body
+
+Local testing
+1. docker build --network=host -t aniketk1827/build-server .
+2. docker run -it -e GIT_REPOSITORY_URL=https://github.com/piyushgarg-dev/piyush-vite-app -e PROJECT_ID=p1 aniketk1827/build-server
