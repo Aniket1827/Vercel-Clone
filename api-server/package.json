@@ -1,0 +1,20 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-ecs": "^3.825.0",
+    "@clickhouse/client": "^1.11.2",
+    "express": "^5.1.0",
+    "kafkajs": "^2.2.4",
+    "random-word-slugs": "^0.1.7",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0"
+  }
+}
