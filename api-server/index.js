@@ -34,7 +34,7 @@ const client = createClient({
     host: "https://clickhouse-3625e41a-aniketkurkute1827-77db.i.aivencloud.com:22822",
     port: 22822,
     username: "avnadmin",
-    password: "AVNS_x1Dtaf_5pMNC7Ww0z91",
+    password: "",
     database: "default"
 })
 
