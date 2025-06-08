@@ -12,7 +12,7 @@ const kafka = new Kafka({
     brokers: ["kafka-211faedb-aniketkurkute1827-77db.i.aivencloud.com:22834"],
     sasl: {
         username: "avnadmin",
-        password: "AVNS_FRU0eRu7FsSJab3ltbP",
+        password: "",
         mechanism: "plain"
     },
     ssl: {
@@ -25,8 +25,8 @@ const producer = kafka.producer()
 const s3Client = new S3Client({
     region: "eu-north-1",
     credentials: {
-        accessKeyId: "AKIA4MPJOCC7IRQVF4VY",
-        secretAccessKey: "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"
+        accessKeyId: "",
+        secretAccessKey: ""
     }
 })
 

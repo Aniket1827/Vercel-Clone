@@ -15,7 +15,7 @@ const kafka = new Kafka({
     brokers: ["kafka-211faedb-aniketkurkute1827-77db.i.aivencloud.com:22834"],
     sasl: {
         username: "avnadmin",
-        password: "AVNS_FRU0eRu7FsSJab3ltbP",
+        password: "",
         mechanism: "plain"
     },
     ssl: {
