@@ -52,8 +52,8 @@ io.on("connection", (socket) => {
 const ecsClient = new ECSClient({
     region: "eu-north-1",
     credentials: {
-        accessKeyId: "AKIA4MPJOCC7IRQVF4VY",
-        secretAccessKey: "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"
+        accessKeyId: "",
+        secretAccessKey: ""
     }
 })
 
